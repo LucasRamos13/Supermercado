@@ -33,7 +33,7 @@ public class ControladorSupermercado {
             JOptionPane.showMessageDialog(null, "Inserido com sucesso!");
             if (man.listagem != null) {
      atualizarTabela(man.listagem.tabela); //atualizar a tabela da listagem
-}
+}man.dispose();//fechar a tela da manutenção
         } else {
             JOptionPane.showMessageDialog(null, "Erro!");
         }
@@ -54,7 +54,7 @@ public class ControladorSupermercado {
             JOptionPane.showMessageDialog(null, "Alterado com sucesso!");
             if (man.listagem != null) {
      atualizarTabela(man.listagem.tabela); //atualizar a tabela da listagem
-}
+}man.dispose();//fechar a tela da manutenção
         } else {
             JOptionPane.showMessageDialog(null, "Erro!");
         }
@@ -69,7 +69,7 @@ public class ControladorSupermercado {
             JOptionPane.showMessageDialog(null, "Excluído com sucesso!");
             if (man.listagem != null) {
      atualizarTabela(man.listagem.tabela); //atualizar a tabela da listagem
-}
+}man.dispose();//fechar a tela da manutenção
         } else {
             JOptionPane.showMessageDialog(null, "Erro!");
         }
